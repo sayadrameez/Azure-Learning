@@ -5,7 +5,7 @@ networks:
 services:
   learnazure:
     build:
-      context: C:\Rameez\Repo\AzureLearning\LearnAzure
+      context: C:\Rameez\Repo\AzureLearning\LearnAzure\Azure-Learning
       dockerfile: LearnAzure\Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development

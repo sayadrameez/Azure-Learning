@@ -8,8 +8,8 @@ services:
       - NUGET_PACKAGES=C:\.nuget\packages
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_learnazure$
     volumes:
-      - C:\Rameez\Repo\AzureLearning\LearnAzure\LearnAzure:C:\app
-      - C:\Users\rameezahmed.sayad\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
+      - C:\Rameez\Repo\AzureLearning\LearnAzure\Azure-Learning\LearnAzure:C:\app
+      - C:\Users\rameezahmed.sayad\onecoremsvsmon:C:\remote_debugger:ro
 #$nuget_volume_mapping_learnazure$
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
