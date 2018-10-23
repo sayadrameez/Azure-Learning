@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  learnazure:
+    build:
+      context: C:\Rameez\Repo\AzureLearning\LearnAzure
+      dockerfile: LearnAzure\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: learnazure
+    ports:
+    - 80/tcp
+version: '3.0'
