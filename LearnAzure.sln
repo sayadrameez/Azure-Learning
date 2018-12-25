@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAzure", "LearnAzure\LearnAzure.csproj", "{A3CF9659-17A6-4735-B996-A5B359117F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnAzure", "LearnAzure\LearnAzure.csproj", "{A3CF9659-17A6-4735-B996-A5B359117F26}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8983EEE3-82D0-4768-B386-2A6B45E497DF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AzureMachineLearning", "..\AzureMachineLearning\AzureMachineLearning.pyproj", "{C5137A15-C4C2-44B5-80A9-29E78B16C5C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,8 @@ Global
 		{8983EEE3-82D0-4768-B386-2A6B45E497DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8983EEE3-82D0-4768-B386-2A6B45E497DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8983EEE3-82D0-4768-B386-2A6B45E497DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5137A15-C4C2-44B5-80A9-29E78B16C5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5137A15-C4C2-44B5-80A9-29E78B16C5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq.Expressions;
 
 namespace LearnAzure.Controllers
 {
@@ -18,6 +19,9 @@ namespace LearnAzure.Controllers
         {
             ViewData["RequestId"] = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
             return View();
+
+            List<int> r = new List<int>();
+            r.Sort
         }
     }
 }
